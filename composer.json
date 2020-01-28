@@ -1,5 +1,5 @@
 {
-  "name": "yireo/magento2-react",
+  "name": "smile/magento2-react",
   "type": "magento2-module",
   "version": "16.9.0",
   "license": "OSL-3.0",
@@ -22,7 +22,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Yireo\\React\\": ""
+      "Smile\\React\\": ""
     }
   }
 }
