@@ -58,10 +58,22 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: 'babel-loader',
+                    loader: "babel-loader",
                     options: {
                         presets: ['@babel/react'],
-                        plugins: ['@babel/plugin-syntax-dynamic-import']
+                        plugins: [
+                            "@babel/plugin-syntax-dynamic-import"
+                        ]
+                    }
+                }
+            },
+            {
+                test: /\.js$/,
+                include: [path.resolve(__dirname, 'node_modules/@magento')],
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["@magento/babel-preset-peregrine"]
                     }
                 }
             }
