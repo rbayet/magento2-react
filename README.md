@@ -1,3 +1,7 @@
+This module is a friendly fork of the POC made by Yireo which is available here : https://github.com/yireo-training/Yireo_React
+
+Many thanks to Yireo and Jessie Reitsma for setting the first steps of this implementation.
+
 # React for Magento 2 Knockout-based frontend
 The current Magento 2 frontend is based on Knockout, RequireJS and ES5 code. However, with an eye on the upcoming PWA moves, it is already possible to add React components to the Magento 2 frontend as it is. This Magento module serves as a base module, to offer a generic Webpack configuration for modules like  [Yireo_ReactMinicart](https://github.com/yireo-training/Yireo_ReactMinicart) and [Yireo_ReactMenu](https://github.com/yireo-training/Yireo_ReactMenu).
 
