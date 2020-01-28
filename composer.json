@@ -9,6 +9,10 @@
     {
       "name": "Jisse Reitsma (Yireo)",
       "email": "jisse@yireo.com"
+    },
+    {
+      "name": "Romain Ruaud (Smile)",
+      "email": "romain.ruaud@smile.fr"
     }
   ],
   "require": {
@@ -24,5 +28,13 @@
     "psr-4": {
       "Smile\\React\\": ""
     }
-  }
+  },
+  "extra": {
+        "map": [
+            [
+                "webpack.config.js",
+                "webpack.config.js"
+            ]
+        ]
+    },
 }
