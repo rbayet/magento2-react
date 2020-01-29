@@ -3,16 +3,26 @@ This module is a friendly fork of the POC made by Yireo which is available here 
 Many thanks to Yireo and Jessie Reitsma for setting the first steps of this implementation.
 
 # React for Magento 2 Knockout-based frontend
-The current Magento 2 frontend is based on Knockout, RequireJS and ES5 code. However, with an eye on the upcoming PWA moves, it is already possible to add React components to the Magento 2 frontend as it is. This Magento module serves as a base module, to offer a generic Webpack configuration for modules like  [Yireo_ReactMinicart](https://github.com/yireo-training/Yireo_ReactMinicart) and [Yireo_ReactMenu](https://github.com/yireo-training/Yireo_ReactMenu).
+The current Magento 2 frontend is based on Knockout, RequireJS and ES5 code. 
+
+However, with an eye on the upcoming PWA moves, it is already possible to add React components to the Magento 2 frontend as it is. 
+
+This Magento module serves as a base module, to offer a generic Webpack configuration for modules like  [Yireo_ReactMinicart](https://github.com/yireo-training/Yireo_ReactMinicart) and [Yireo_ReactMenu](https://github.com/yireo-training/Yireo_ReactMenu).
+
+### Pre-requisites
+This module requires : 
+- [yarn](https://legacy.yarnpkg.com/en/docs/install#debian-stable) v1.19.1
 
 ### Installation
 Use the following commands to install this module into Magento 2:
 
-    composer require yireo/magento2-react:dev-master
-    bin/magento module:enable Yireo_React
+    composer require smile/magento2-react
+    bin/magento module:enable Smile_React
     bin/magento setup:upgrade
 
-Next, copy the files `package.json` and `webpack.config.js` to the Magento root. Next, install all of the packages:
+The composer install should have copied the files `package.json` and `webpack.config.js` to your Magento root. If that's not the case, you can copy them manually. 
+
+Next, install all of the packages:
 
     yarn install
 
