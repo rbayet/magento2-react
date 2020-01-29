@@ -81,6 +81,7 @@ module.exports = {
     },
     output: {
         path: outputFolder,
+        publicPath: '/',
         filename: 'js/react.bundle.js'
     }
 };
