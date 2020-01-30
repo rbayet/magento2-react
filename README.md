@@ -13,6 +13,12 @@ This Magento module serves as a base module, to offer a generic Webpack configur
 This module requires : 
 - [yarn](https://legacy.yarnpkg.com/en/docs/install#debian-stable) v1.19.1
 
+### What does it contains
+
+- A basic integration of React into Magento, allowing to build React components
+- This also integrates all [Peregrine](https://magento.github.io/pwa-studio/peregrine/) components shipped by Magento PWA Studio for better reusability.
+- A webpack configuration allowing to build the components.
+
 ### Installation
 Use the following commands to install this module into Magento 2:
 
